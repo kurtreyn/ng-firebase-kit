@@ -1,6 +1,17 @@
 {
-  "name": "ng-firebase-workspace",
+  "name": "ng-firebase-kit",
+  "description": "A lightweight Angular library for seamless Firebase integration.",
   "version": "0.0.0",
+  "homepage": "https://github.com/kurtreyn/ng-firebase-kit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurtreyn/ng-firebase-kit.git"
+  },
+  "author": "Kurt Reynolds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurtreyn/ng-firebase-kit/issues"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -21,9 +32,13 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@angular/build": "^22.2.5",
     "@angular/cli": "^22.2.5",
     "@angular/compiler-cli": "^22.2.0",
+    "jsdom": "^30.0.0",
+    "ng-packagr": "^22.2.0",
     "prettier": "^3.8.1",
-    "typescript": "~6.0.2"
+    "typescript": "~6.0.2",
+    "vitest": "^5.0.0"
   }
 }
